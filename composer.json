@@ -1,0 +1,39 @@
+{
+    "name": "nvendor/view-on-frontend",
+    "description": "Nvendor View Product on Frontend from Admin",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "keywords": [
+        "nvendor",
+        "magento",
+        "view on frontend"
+    ],
+    "homepage": "https://www.zeljkoivanovic.com",
+    "time": "2020-03-04 14:35:21",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "zeljko@zeljkoivanovic.com",
+            "name": "Zeljko Ivanovic",
+            "role": "Backend Developer"
+        }
+    ],
+    "support": {
+        "email": "office@zeljkoivanovic.com"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Nvendor\\ViewOnFrontend\\": ""
+        }
+    },
+    "repositories": [{
+        "type": "composer",
+        "url": "https://packages.zeljkoivanovic.com/web"
+    }],
+    "require": {
+        "nvendor/core": "*"
+    }
+}

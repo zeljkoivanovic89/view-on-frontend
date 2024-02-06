@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~  Nvendor Group
+  ~
+  ~  This source file is subject to the Nvendor Software License, which is available at https://www.zeljkoivanovic.com/.
+  ~  Do not edit or add to this file if you wish to upgrade to the newer versions in the future.
+  ~  If you wish to customize this module for your needs,
+  ~  please refer to http://www.magentocommerce.com for more information.
+  ~
+  ~  @category  Nvendor
+  ~  @package   Nvendor_ViewOnFrontend
+  ~  @author    Zeljko Ivanovic <zeljko@zeljkoivanovic.com>
+  ~  @copyright Copyright (C) 2020 Nvendor (https://www.zeljkoivanovic.com/)
+  ~  @license   http://opensource.org/licenses/gpl-license.php GNU Public License
+  ~  @link      https://www.zeljkoivanovic.com/
+  ~
+  -->
+
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="buttons" xsi:type="array">
+            <item name="frontendViewLink" xsi:type="string">Nvendor\ViewOnFrontend\Block\Adminhtml\Product\Edit\Button\View</item>
+        </item>
+    </argument>
+</form>
